@@ -1,0 +1,18 @@
+[server]
+base-url = "http://proxy.example.com"
+bind = ":80"
+secret-key = "foobar"
+
+[oauth]
+client-id = "foobar"
+client-secret = "secret"
+auth-url = "http://api.example.com/oauth/auth"
+token-url = "http://api.example.com/oauth/token"
+
+[upstream.api]
+address = "http://api.example.com"
+prefix = "/api"
+
+[upstream.auth]
+address = "http://oauth.example.com"
+prefix = "/auth"
