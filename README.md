@@ -31,6 +31,11 @@ Full API documentation is available here:
 
 [https://godoc.org/github.com/paulrosania/oauth-token-proxy](https://godoc.org/github.com/paulrosania/oauth-token-proxy)
 
+## Thanks
+
+* Alex Bilbie, for the article *[OAuth and Single Page JavaScript Web-Apps](http://alexbilbie.com/2014/11/oauth-and-javascript/)*,
+  which inspired this project.
+
 ## Contributing
 
 1. Fork the project
